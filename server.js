@@ -41,7 +41,7 @@ const contractIds = new Set();
 
 let ws = null, botRunning = false, reconnecting = false;
 let reconnectAttempts = 0, reconnectInterval = null;
-let currentAccountId = '', currentAccountType = 'real';
+let currentAccountId = '', currentAccountType = 'demo';
 let tradeLogs = [];
 let balance = 0;
 
